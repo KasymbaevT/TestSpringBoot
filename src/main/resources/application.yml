@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: admin
+    password: admin
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    database: postgresql
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+
+#  spring.jpa.database=postgresql
+#  spring.jpa.hibernate.ddl-auto=create
+#  spring.datasource.driver-class-name=org.postgresql.Driver
+#  spring.jpa.show-sql=true
+#  spring.datasource.url=jdbc:postgresql://localhost:5432/test
+#  spring.datasource.username=admin
+server:
+  port: 9898
+
+#  spring.datasource.password=admin
